@@ -4,7 +4,7 @@
 }
 
 :root {
-    --light-background: linear-gradient(to bottom, #EEEEEE, #999999);
+    --light-background: #999999)
     --text-color: #000000;
     --dark-background: linear-gradient(to bottom, #444444, #EEEEEE);
 }
@@ -16,7 +16,7 @@
 }
 
 .light {
-    --dark-background: var(--light-background, linear-gradient(to bottom, #EEEEEE, #999999));
+    --dark-background: var(--light-background, #999999);
 }
 
 html {
@@ -42,15 +42,15 @@ header {
 
 header h1 {
     margin: 0;
-    color: #0F31DF;
+    color: #D1C4E9;
     font-size: 3rem;
     text-align: center;
     margin: 16px 0 16px 0;
     margin: 1rem 0 1rem 0;
-    text-shadow: 2px  2px 0 #FFB80F,
-                -2px  2px 0 #FFB80F,
-                 2px -2px 0 #FFB80F,
-                -2px -2px 0 #FFB80F;
+    text-shadow: 2px  2px 0 #4C2A85,
+                -2px  2px 0 #4C2A85,
+                 2px -2px 0 #4C2A85,
+                -2px -2px 0 #4C2A85;
 }
 
 main {
@@ -65,7 +65,7 @@ footer {
 
 .timer {
     margin: 0 auto;
-    color: #FFB80F;
+    color: #4C2A85;
     padding: .5rem;
     max-width: 530px;
     border-radius: 10px;
@@ -88,7 +88,7 @@ footer {
 }
 
 .timer__digits {
-    color: #FFB80F;
+    color: #4C2A85;
     display: flex;
     font-size: 80px;
     font-size: 5.75rem;
@@ -98,16 +98,16 @@ footer {
 
 .clock-text,
 .clock-digits {
-    color: #0F31DF;
+    color: #F1FeC6;
     font-size: 80px;
     font-size: 5rem;
     margin: 16px 16px 0 0;
     margin: 1rem 1rem 0 0;
-    text-shadow: 2px 2px 0 #FF5F0F,
-                 -2px 2px 0 #FF5F0F,
-                 2px -2px 0 #FF5F0F,
-                 -2px -2px 0 #FF5F0F,
-                 8px 8px 0 #F25A0E;
+    text-shadow: 2px 2px 0 #F1FeC6,
+                 -2px 2px 0 #F1FeC6,
+                 2px -2px 0 #F1FeC6,
+                 -2px -2px 0 #F1FeC6,
+                 8px 8px 0 #F1FeC6;
 }
 
 .clock-text {
@@ -126,7 +126,7 @@ footer {
     width: 100%;
     margin: .5em 0;
     display: block;
-    color: #1E90FF;
+    color: #D1C4E9;
     font-size: 2rem;
     overflow: visible;
     letter-spacing: 2px;
@@ -141,7 +141,7 @@ footer {
 .ctrl-bttn {
     width: 60px;
     height: 60px;
-    color: #1E90FF;
+    color: #D1C4E9;
     font-size: 3rem;
     background-color: #060606;
 }
